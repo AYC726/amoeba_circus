@@ -1,5 +1,24 @@
 == README
 
+Instructions
+generate a new rails app
+cd into app and initialize as a new git repo.
+add a remote matching the same name on your personal github.
+using rails generate commands, create the models and migrations needed for amoebas, acts, and talents. acts and amoebas will have models, controllers, and views, whereas talent only needs a model to store the name of each special talent: acrobat, contortionist, clown, juggler, or freak;
+Check the migrations to make sure they are correct and make any changes neccesary.
+Fill in the appropriate active record associations for each model and then run the migrations.
+Fill in the /db/seeds.rb to build some acts, special talents, and amoebas.
+Then run rake db:seed to populate your development db.
+make sure to include the following RESTful views:
+display all amoebas (link name to show that amoeba)
+show an individual amoeba (include a link to split amoeba using custom routes)
+edit an individual amoeba so that it can be added to an act.
+display all acts
+show an indivdual act (that displays its date and all the amoba actors asiigned to it)
+edit an individual act
+bonus view: a single dashboard view that shows all acts, all amoebas, and a form to move amoebas
+When completed copy and paste link to your github repos master branch to this post on Piazza.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
